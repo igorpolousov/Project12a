@@ -40,7 +40,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         cell.name.text = person.name
         cell.imageView.layer.borderColor = UIColor(white: 0, alpha: 0.7).cgColor
         cell.imageView.layer.borderWidth = 3
-        cell.imageView.layer.cornerRadius = 4
+        cell.imageView.layer.cornerRadius = 8
         cell.layer.cornerRadius = 8
         
         return cell
